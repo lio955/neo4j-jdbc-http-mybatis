@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ing.lu.data.MyMapper">
+
+
+    <select id="selectPerson" resultType="com.ing.lu.data.Person">
+        MATCH (n:Person) RETURN n.born as born, n.name as name LIMIT 25
+    </select>
+
+
+</mapper>
