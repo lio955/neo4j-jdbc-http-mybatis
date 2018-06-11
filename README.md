@@ -4,3 +4,5 @@ run with following VM options :
 -Djdbc.neo4j.user=XXXXX
 -Djdbc.neo4j.password=YYYYY
 -Djdbc.neo4j.connectString=jdbc:neo4j:http://localhost:7474/
+
+main class : com.ing.lu.data.Accessor
